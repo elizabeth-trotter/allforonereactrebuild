@@ -1,6 +1,7 @@
 ## Peer Review
-Name:
-Comments:
+Name:Zachary Dressel
+Comments: Project is spot on for the ask of a React recreation, everything functions well save for level 2 that is backwards, and that level 9 could use a description rather 
+than just the output of the name. Website is totally responsive as well, Overall Amazing!
 
 
 ---
