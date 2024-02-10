@@ -1,4 +1,4 @@
-# All For One React Rebuild &nbsp;&nbsp;<a href="https://allforone-frontend.vercel.app/">![Website](https://img.shields.io/website?url=https%3A%2F%2Fallforone-frontend.vercel.app%2F&up_message=ONLINE&up_color=355E3B&down_message=OFFLINE&down_color=8B0000&style=for-the-badge&logo=vercel)</a>
+# All For One React Rebuild &nbsp;&nbsp;<a href="https://allforone-frontend.vercel.app/">![Website](https://img.shields.io/website?url=https%3A%2F%2Fallforonereactrebuild.vercel.app%2F&up_message=ONLINE&up_color=355E3B&down_message=OFFLINE&down_color=8B0000&style=for-the-badge&logo=vercel)</a>
 **Name:** Elizabeth Trotter
 
 ### Project Scope
@@ -15,7 +15,7 @@ This is a `rebuild of a former project` that consolidates former mini API endpoi
 
 <h2 align="center">Application Preview</h2>
 
-![Mobile preview](./assets/MobilePreview.png)
+![Mobile preview](/public/assets/MobilePreview.png)
 <p align="right">Figure 1: Mobile preview of home page and first two levels</p>
 
 
