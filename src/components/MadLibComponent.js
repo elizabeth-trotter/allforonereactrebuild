@@ -14,6 +14,7 @@ export default function MadLibComponent() {
     const [verb, setVerb] = useState('');
     const [object, setObject] = useState('');
     const [hours, setHours] = useState('');
+
     const [result, setResult] = useState('');
     
     const submitClick = async () => {
@@ -46,26 +47,26 @@ export default function MadLibComponent() {
                                 type="text" id="noun1" maxLength="10" placeholder="Required field" required/>
                         </div>
                         <div className="py-5">
-                            <label onChange={e => setHoliday(e.target.value)} className="block pb-5 text-2xl" htmlFor="holiday1">Enter a holiday:</label>
-                            <input
+                            <label className="block pb-5 text-2xl" htmlFor="holiday1">Enter a holiday:</label>
+                            <input onChange={e => setHoliday(e.target.value)}
                                 className="text-black text-lg rounded-lg border-0 h-10 ps-2 w-[230px] min-[375px]:w-[300px] sm:w-[400px]"
                                 type="text" id="holiday1" maxLength="10" placeholder="Required field" required/>
                         </div>
                         <div className="py-5">
-                            <label onChange={e => setProunoun(e.target.value)} className="block pb-5 text-2xl" htmlFor="pronoun1">Enter a pronoun:</label>
-                            <input
+                            <label className="block pb-5 text-2xl" htmlFor="pronoun1">Enter a pronoun:</label>
+                            <input onChange={e => setProunoun(e.target.value)}
                                 className="text-black text-lg rounded-lg border-0 h-10 ps-2 w-[230px] min-[375px]:w-[300px] sm:w-[400px]"
                                 type="text" id="pronoun1" maxLength="10" placeholder="Required field" required/>
                         </div>
                         <div className="py-5">
-                            <label onChange={e => setAnimal(e.target.value)} className="block pb-5 text-2xl" htmlFor="animal1">Enter an animal:</label>
-                            <input
+                            <label className="block pb-5 text-2xl" htmlFor="animal1">Enter an animal:</label>
+                            <input onChange={e => setAnimal(e.target.value)}
                                 className="text-black text-lg rounded-lg border-0 h-10 ps-2 w-[230px] min-[375px]:w-[300px] sm:w-[400px]"
                                 type="text" id="animal1" maxLength="10" placeholder="Required field" required/>
                         </div>
                         <div className="pt-5 pb-10">
-                            <label onChange={e => setExclam(e.target.value)} className="block pb-5 text-2xl" htmlFor="exclamation1">Enter an exclamation:</label>
-                            <input
+                            <label className="block pb-5 text-2xl" htmlFor="exclamation1">Enter an exclamation:</label>
+                            <input onChange={e => setExclam(e.target.value)}
                                 className="text-black text-lg rounded-lg border-0 h-10 ps-2 w-[230px] min-[375px]:w-[300px] sm:w-[400px]"
                                 type="text" id="exclamation1" maxLength="10" placeholder="Required field" required/>
                         </div>
