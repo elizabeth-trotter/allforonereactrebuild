@@ -47,11 +47,11 @@ export default function QuestionComponent() {
                 <div className="mx-auto">
                     <div className="pb-5">
                         <label className="block pb-5 text-2xl" htmlFor="time">When did you wake up?</label>
-                        <input onChange={e => setInputOne(e.target.value)} onKeyDown={handleKeyDownOne} className="text-black text-lg rounded-lg border-0 w-[230px] min-[375px]:w-[300px] sm:w-[400px]" type="text" id="time" maxLength="10" placeholder="Can be a whole integer or string" required/>
+                        <input onChange={e => setInputTwo(e.target.value)} onKeyDown={handleKeyDownTwo} className="text-black text-lg rounded-lg border-0 w-[230px] min-[375px]:w-[300px] sm:w-[400px]" type="text" id="time" maxLength="10" placeholder="Can be a whole integer or string" required/>
                     </div>
                     <div className="pt-5">
                         <label className="block pb-5 text-2xl" htmlFor="name">What is your first name?</label>
-                        <input onChange={e => setInputTwo(e.target.value)} onKeyDown={handleKeyDownTwo} className="text-black text-lg rounded-lg border-0 w-[230px] min-[375px]:w-[300px] sm:w-[400px]" type="text" id="name" maxLength="10" placeholder="10 characters max" required/>
+                        <input onChange={e => setInputOne(e.target.value)} onKeyDown={handleKeyDownOne} className="text-black text-lg rounded-lg border-0 w-[230px] min-[375px]:w-[300px] sm:w-[400px]" type="text" id="name" maxLength="10" placeholder="10 characters max" required/>
                     </div>
                 </div>
                 <div className="mx-auto hidden xl:block">

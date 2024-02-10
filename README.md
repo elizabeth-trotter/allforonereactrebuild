@@ -1,7 +1,30 @@
-## Peer Review
-Name:Zachary Dressel
-Comments: Project is spot on for the ask of a React recreation, everything functions well save for level 2 that is backwards, and that level 9 could use a description rather 
-than just the output of the name. Website is totally responsive as well, Overall Amazing!
+# All For One React Rebuild &nbsp;&nbsp;<a href="https://allforone-frontend.vercel.app/">![Website](https://img.shields.io/website?url=https%3A%2F%2Fallforone-frontend.vercel.app%2F&up_message=ONLINE&up_color=355E3B&down_message=OFFLINE&down_color=8B0000&style=for-the-badge&logo=vercel)</a>
+**Name:** Elizabeth Trotter
+
+### Project Scope
+
+This is a `rebuild of a former project` that consolidates former mini API endpoints challenges into a 10-page web application. The focus of this project was to `learn how to use React`. This project was prototyped on `Figma` using a `mobile first design`.
+- Click :point_right: [here](https://www.figma.com/proto/P9ZFb3XZKi6OTKlwhIVT3e/All-For-One?node-id=1-3&starting-point-node-id=1%3A3&mode=design&t=H8UrXTEuxcELZiLW-1) to visit the **Figma Prototype** for Mobile and Desktop.
+- Click :point_right: [here](https://github.com/et120/allforone-frontend) to visit the **Original Project Repo** completed with Vanilla JavaScript.
+
+> [!NOTE]
+> This application fetches from a fully functional `Web API` that I created and deployed on `Azure`. It can be accessed by other applications over HTTP.
+- Click :point_right: [here](https://github.com/et120/allforone) to visit the **Web API Repo**.
+&nbsp;
+
+
+<h2 align="center">Application Preview</h2>
+
+![Mobile preview](./assets/MobilePreview.png)
+<p align="right">Figure 1: Mobile preview of home page and first two levels</p>
+
+
+### Peer Review
+> **Name:** Zachary Dressel **Date/ Time:** 2/9/24 3:55 pm
+> **Comment(s):** Project is spot on for the ask of a React recreation, everything functions well save for level 2 that is backwards, and that level 9 could use a description rather than just the output of the name. Website is totally responsive as well, Overall Amazing!
+
+**Issues Resolved:**
+- Fixed level 2 bug :white_check_mark: *2/9/24 4:55 pm*
 
 
 ---
