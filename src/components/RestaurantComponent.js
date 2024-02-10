@@ -38,7 +38,7 @@ export default function RestaurantComponent() {
                 </div>
                 <div className="mx-auto">
                     <label className="block pb-5 text-2xl" htmlFor="input">Enter a restaurant category:</label>
-                    <input onChange={e => setCategory(e.target.value)} onKeyDown={handleKeyDown} className="text-black text-lg rounded-lg border-0 w-[230px] min-[375px]:w-[300px] sm:w-[400px]" type="text" id="input" maxLength="10" placeholder="Choose: sushi, burgers, or pizza" required/>
+                    <input onChange={e => setCategory(e.target.value)} onKeyDown={handleKeyDown} className="text-black text-lg rounded-lg border-0 h-10 ps-2 w-[230px] min-[375px]:w-[300px] sm:w-[400px]" type="text" id="input" maxLength="10" placeholder="Choose: sushi, burgers, or pizza" required/>
                 </div>
                 <div className="mx-auto hidden xl:block">
                     <img src="../assets/Brandy.png" alt="Drink icon"/>

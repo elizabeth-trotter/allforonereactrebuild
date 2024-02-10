@@ -38,7 +38,7 @@ export default function ReverseStrComponent() {
                 </div>
                 <div class="mx-auto">
                     <label class="block pb-5 text-2xl" htmlFor="input">Enter a random string:</label>
-                    <input onChange={e => setNumOne(e.target.value)} onKeyDown={handleKeyDown} class="text-black text-lg rounded-lg border-0 w-[230px] min-[375px]:w-[300px] sm:w-[400px]" type="text" id="input" maxLength="10" placeholder="Can have letters and numbers" required/>
+                    <input onChange={e => setNumOne(e.target.value)} onKeyDown={handleKeyDown} class="text-black text-lg rounded-lg border-0 h-10 ps-2 w-[230px] min-[375px]:w-[300px] sm:w-[400px]" type="text" id="input" maxLength="10" placeholder="Can have letters and numbers" required/>
                 </div>
                 <div class="mx-auto hidden xl:block">
                     <img src="../assets/ASymbol.png" alt="A symbol icon"/>

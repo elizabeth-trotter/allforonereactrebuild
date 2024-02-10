@@ -42,31 +42,31 @@ export default function MadLibComponent() {
                         <div className="pb-5">
                             <label className="block pb-5 text-2xl" htmlFor="noun1">Enter a noun:</label>
                             <input onChange={e => setNoun(e.target.value)}
-                                className="text-black text-lg rounded-lg border-0 w-[230px] min-[375px]:w-[300px] sm:w-[400px]"
+                                className="text-black text-lg rounded-lg border-0 h-10 ps-2 w-[230px] min-[375px]:w-[300px] sm:w-[400px]"
                                 type="text" id="noun1" maxLength="10" placeholder="Required field" required/>
                         </div>
                         <div className="py-5">
                             <label onChange={e => setHoliday(e.target.value)} className="block pb-5 text-2xl" htmlFor="holiday1">Enter a holiday:</label>
                             <input
-                                className="text-black text-lg rounded-lg border-0 w-[230px] min-[375px]:w-[300px] sm:w-[400px]"
+                                className="text-black text-lg rounded-lg border-0 h-10 ps-2 w-[230px] min-[375px]:w-[300px] sm:w-[400px]"
                                 type="text" id="holiday1" maxLength="10" placeholder="Required field" required/>
                         </div>
                         <div className="py-5">
                             <label onChange={e => setProunoun(e.target.value)} className="block pb-5 text-2xl" htmlFor="pronoun1">Enter a pronoun:</label>
                             <input
-                                className="text-black text-lg rounded-lg border-0 w-[230px] min-[375px]:w-[300px] sm:w-[400px]"
+                                className="text-black text-lg rounded-lg border-0 h-10 ps-2 w-[230px] min-[375px]:w-[300px] sm:w-[400px]"
                                 type="text" id="pronoun1" maxLength="10" placeholder="Required field" required/>
                         </div>
                         <div className="py-5">
                             <label onChange={e => setAnimal(e.target.value)} className="block pb-5 text-2xl" htmlFor="animal1">Enter an animal:</label>
                             <input
-                                className="text-black text-lg rounded-lg border-0 w-[230px] min-[375px]:w-[300px] sm:w-[400px]"
+                                className="text-black text-lg rounded-lg border-0 h-10 ps-2 w-[230px] min-[375px]:w-[300px] sm:w-[400px]"
                                 type="text" id="animal1" maxLength="10" placeholder="Required field" required/>
                         </div>
                         <div className="pt-5 pb-10">
                             <label onChange={e => setExclam(e.target.value)} className="block pb-5 text-2xl" htmlFor="exclamation1">Enter an exclamation:</label>
                             <input
-                                className="text-black text-lg rounded-lg border-0 w-[230px] min-[375px]:w-[300px] sm:w-[400px]"
+                                className="text-black text-lg rounded-lg border-0 h-10 ps-2 w-[230px] min-[375px]:w-[300px] sm:w-[400px]"
                                 type="text" id="exclamation1" maxLength="10" placeholder="Required field" required/>
                         </div>
                     </div>
@@ -76,31 +76,31 @@ export default function MadLibComponent() {
                         <div className="pb-5">
                             <label className="block pb-5 text-2xl" htmlFor="color1">Enter a color:</label>
                             <input onChange={e => setColor(e.target.value)}
-                                className="text-black text-lg rounded-lg border-0 w-[230px] min-[375px]:w-[300px] sm:w-[400px]"
+                                className="text-black text-lg rounded-lg border-0 h-10 ps-2 w-[230px] min-[375px]:w-[300px] sm:w-[400px]"
                                 type="text" id="color1" maxLength="10" placeholder="Required field" required/>
                         </div>
                         <div className="py-5">
                             <label className="block pb-5 text-2xl" htmlFor="noun2">Enter a noun:</label>
                             <input onChange={e => setNounTwo(e.target.value)}
-                                className="text-black text-lg rounded-lg border-0 w-[230px] min-[375px]:w-[300px] sm:w-[400px]"
+                                className="text-black text-lg rounded-lg border-0 h-10 ps-2 w-[230px] min-[375px]:w-[300px] sm:w-[400px]"
                                 type="text" id="noun2" maxLength="10" placeholder="Required field" required/>
                         </div>
                         <div className="py-5">
                             <label className="block pb-5 text-2xl" htmlFor="verb1">Enter a verb (-ing):</label>
                             <input onChange={e => setVerb(e.target.value)}
-                                className="text-black text-lg rounded-lg border-0 w-[230px] min-[375px]:w-[300px] sm:w-[400px]"
+                                className="text-black text-lg rounded-lg border-0 h-10 ps-2 w-[230px] min-[375px]:w-[300px] sm:w-[400px]"
                                 type="text" id="verb1" maxLength="10" placeholder="Required field" required/>
                         </div>
                         <div className="py-5">
                             <label className="block pb-5 text-2xl" htmlFor="object1">Enter a blunt object:</label>
                             <input onChange={e => setObject(e.target.value)}
-                                className="text-black text-lg rounded-lg border-0 w-[230px] min-[375px]:w-[300px] sm:w-[400px]"
+                                className="text-black text-lg rounded-lg border-0 h-10 ps-2 w-[230px] min-[375px]:w-[300px] sm:w-[400px]"
                                 type="text" id="object1" maxLength="10" placeholder="Required field" required/>
                         </div>
                         <div className="py-5">
                             <label className="block pb-5 text-2xl" htmlFor="hours1">Enter a number:</label>
                             <input onChange={e => setHours(e.target.value)}
-                                className="text-black text-lg rounded-lg border-0 w-[230px] min-[375px]:w-[300px] sm:w-[400px]"
+                                className="text-black text-lg rounded-lg border-0 h-10 ps-2 w-[230px] min-[375px]:w-[300px] sm:w-[400px]"
                                 type="text" id="hours1" maxLength="10" placeholder="Required field" required/>
                         </div>
                     </div>

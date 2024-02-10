@@ -48,11 +48,11 @@ export default function AddComponent() {
                 <div className="mx-auto">
                     <div className="pb-5">
                         <label className="block pb-5 text-2xl" htmlFor="numOne">Enter the first number:</label>
-                        <input onChange={e => setNumOne(e.target.value)} onKeyDown={handleKeyDownOne} className="text-black text-lg rounded-lg border-0 w-[230px] min-[375px]:w-[300px] sm:w-[400px]" type="text" id="numOne" maxLength="10" placeholder="Must be a whole integer" required/>
+                        <input onChange={e => setNumOne(e.target.value)} onKeyDown={handleKeyDownOne} className="text-black text-lg rounded-lg border-0 h-10 ps-2 w-[230px] min-[375px]:w-[300px] sm:w-[400px]" type="text" id="numOne" maxLength="10" placeholder="Must be a whole integer" required/>
                     </div>
                     <div className="pt-5">
                         <label className="block pb-5 text-2xl" htmlFor="numTwo">Enter the second number:</label>
-                        <input onChange={e => setNumTwo(e.target.value)} onKeyDown={handleKeyDownTwo} className="text-black text-lg rounded-lg border-0 w-[230px] min-[375px]:w-[300px] sm:w-[400px]" type="text" id="numTwo" maxLength="10" placeholder="Must be a whole integer" required/>
+                        <input onChange={e => setNumTwo(e.target.value)} onKeyDown={handleKeyDownTwo} className="text-black text-lg rounded-lg border-0 h-10 ps-2 w-[230px] min-[375px]:w-[300px] sm:w-[400px]" type="text" id="numTwo" maxLength="10" placeholder="Must be a whole integer" required/>
                     </div>
                 </div>
                 <div className="mx-auto hidden xl:block">

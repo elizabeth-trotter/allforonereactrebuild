@@ -39,7 +39,7 @@ export default function HelloComponent() {
                 
                 <div className="mx-auto">
                     <label className="block pb-5 text-2xl" htmlFor="userName">Enter Username:</label>
-                    <input onChange={e => setUserName(e.target.value)} onKeyDown={handleKeyDown} className="text-black text-lg rounded-lg border-0 w-[230px] min-[375px]:w-[300px] sm:w-[400px]" type="text" id="userName" maxLength="10" placeholder="Must be less than 10 characters" required/>
+                    <input onChange={e => setUserName(e.target.value)} onKeyDown={handleKeyDown} className="text-black text-lg rounded-lg border-0 h-10 ps-2 w-[230px] min-[375px]:w-[300px] sm:w-[400px]" type="text" id="userName" maxLength="10" placeholder="Must be less than 10 characters" required/>
                 </div>
 
                 <div className="mx-auto hidden xl:block">
